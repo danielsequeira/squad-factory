@@ -1,6 +1,6 @@
-package locator.domain;
+package squad.domain;
 
-import locator.enumeration.Squad;
+import squad.enumeration.Squad;
 
 public class Player {
 
