@@ -14,7 +14,6 @@ public class U19SquadService implements SquadService {
 
     @Override
     public List<Player> getPlayers() {
-        return Arrays.asList(new Player("Joao", Squad.U19), new Player(
-                "Miguel", Squad.U19), new Player("Tiago", Squad.U19));
+        return Arrays.asList(new Player("Joao", Squad.U19), new Player("Miguel", Squad.U19), new Player("Tiago", Squad.U19));
     }
 }

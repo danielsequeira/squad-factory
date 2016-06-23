@@ -18,14 +18,10 @@ import squad.util.SquadFactory;
 @RunWith(SpringJUnit4ClassRunner.class)
 @SpringApplicationConfiguration(classes = SquadFactoryApplication.class)
 @ContextConfiguration(locations = { "classpath:/applicationContext.xml" })
-public class SquadFactoryApplicationTests {
+public class SquadFactoryApplicationTest {
 
     @Autowired
     private SquadFactory squadFactory;
-
-    @Test
-    public void contextLoads() {
-    }
 
     @Test
     public void getPlayersBySquad() {
@@ -36,18 +32,5 @@ public class SquadFactoryApplicationTests {
         assertEquals(5, playersA.size());
         assertEquals(4, playersB.size());
         assertEquals(3, playersU19.size());
-
-        for (Player player : playersA) {
-            System.out.println(player.toString());
-        }
-
-        for (Player player : playersB) {
-            System.out.println(player.toString());
-        }
-
-        for (Player player : playersU19) {
-            System.out.println(player.toString());
-        }
     }
-
 }

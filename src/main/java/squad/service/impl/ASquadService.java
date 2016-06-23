@@ -14,9 +14,7 @@ public class ASquadService implements SquadService {
 
     @Override
     public List<Player> getPlayers() {
-        return Arrays.asList(new Player("Casillas", Squad.A), new Player(
-                "Marcano", Squad.A), new Player("Imbula", Squad.A), new Player(
-                "Brahimi", Squad.A), new Player("Aboubakar", Squad.A));
+        return Arrays.asList(new Player("Casillas", Squad.A), new Player("Indi", Squad.A),
+                new Player("Danilo", Squad.A), new Player("Brahimi", Squad.A), new Player("Aboubakar", Squad.A));
     }
-
 }

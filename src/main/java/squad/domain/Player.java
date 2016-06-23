@@ -19,7 +19,7 @@ public class Player {
         return name;
     }
 
-    public void setName(String name) {
+    public void setName(final String name) {
         this.name = name;
     }
 
@@ -27,7 +27,7 @@ public class Player {
         return squad;
     }
 
-    public void setSquad(Squad squad) {
+    public void setSquad(final Squad squad) {
         this.squad = squad;
     }
 
@@ -35,5 +35,4 @@ public class Player {
     public String toString() {
         return "Player [name=" + name + ", squad=" + squad + "]";
     }
-
 }

@@ -1,5 +1,7 @@
 package squad.enumeration;
 
 public enum Squad {
-    A, B, U19
+    A,
+    B,
+    U19
 }

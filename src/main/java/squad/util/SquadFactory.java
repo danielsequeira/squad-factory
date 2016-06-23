@@ -6,5 +6,4 @@ import squad.service.SquadService;
 public interface SquadFactory {
 
     SquadService getSquad(Squad squad);
-
 }

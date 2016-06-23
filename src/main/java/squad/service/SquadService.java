@@ -7,5 +7,4 @@ import squad.domain.Player;
 public interface SquadService {
 
     public List<Player> getPlayers();
-
 }
